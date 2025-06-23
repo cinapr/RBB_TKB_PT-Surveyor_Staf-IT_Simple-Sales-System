@@ -33,7 +33,7 @@ To simulate a real-world application for managing sales operations, including:
 
 ## 📂 Project Structure
 ```
-/PHPCode
+/rbbsurveyor
 │
 ├── db.php # Database connection
 ├── index.php # Dashboard with charts
