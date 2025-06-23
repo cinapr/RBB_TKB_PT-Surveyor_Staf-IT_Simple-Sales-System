@@ -32,7 +32,7 @@ To simulate a real-world application for managing sales operations, including:
 - Chart.js
 
 ## 📂 Project Structure
-'''
+```
 /PHPCode
 │
 ├── db.php # Database connection
@@ -42,8 +42,23 @@ To simulate a real-world application for managing sales operations, including:
 ├── sales.php # CRUD for sales staff
 ├── klien.php # CRUD for clients
 └── aktivitas_sales.php # CRUD for sales activities
-'''
+```
 
+## 🚀 Installation
+
+1. Install Apache & MySQL (suggested: XAMPP)
+2. Import `rbb2025_pt_surveyor_system_sales.sql` into MySQL
+3. Copy project files to your PHP server (e.g., `htdocs/` on XAMPP)
+4. Open in browser: `http://localhost/rbbsurveyor/index.php`
+
+## 📌 Future Enhancements
+
+- Add Login & Role-based Access Control
+- Input Validation for Public Use
+- Use Bootstrap for better UI/UX
+- Add deletion audit logs
+- Navigation bar for easier access
+- Expand dashboard visualizations
 
 ## 🗃️ Database Design
 
@@ -87,21 +102,7 @@ Automatically calculates `total_harga` if `notes` is not NULL.
   - Top 5 Best-selling Products
   - Other future dashboards
 
-## 🚀 Installation
 
-1. Install Apache & MySQL (suggested: XAMPP)
-2. Import `rbb2025_pt_surveyor_system_sales.sql` into MySQL
-3. Copy project files to your PHP server (e.g., `htdocs/` on XAMPP)
-4. Open in browser: `http://localhost/rbbsurveyor/index.php`
-
-## 📌 Future Enhancements
-
-- Add Login & Role-based Access Control
-- Input Validation for Public Use
-- Use Bootstrap for better UI/UX
-- Add deletion audit logs
-- Navigation bar for easier access
-- Expand dashboard visualizations
 
 
 
