@@ -2,6 +2,7 @@
 Developed as part of the TKB (Tes Kemampuan Bidang) task for the Rekrutmen Bersama BUMN (RBB) 2025, specifically for the Staf IT position at PT Surveyor Indonesia. Built using PHP &amp; MySQL. CRUD and simple dashboard of sales system.
 
 This project was created as a timed prototype within ~2 hours for demonstration purposes.
+
 Further information can be read on : CINDY APRILIA TKB Staf IT_Report & Readme.pdf
 
 ## 🎯 Project Purpose
@@ -45,6 +46,9 @@ To simulate a real-world application for managing sales operations, including:
 
 
 ## 🗃️ Database Design
+
+<img width="670" alt="ERD" src="https://github.com/user-attachments/assets/63d91074-1ae8-40ff-ab66-826a37686c1d" />
+
 
 **Entities:**
 
