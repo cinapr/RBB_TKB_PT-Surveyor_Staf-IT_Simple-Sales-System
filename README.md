@@ -22,6 +22,7 @@ To simulate a real-world application for managing sales operations, including:
 - Multi-product Sales Entry Form
 - Real-time Invoice Calculation
 - Trigger & Stored Procedures for Data Consistency
+- The possibility transaction adjustment for discount and negotiation with accountable record
 - Provinces data covering all regions in Indonesia
 - Dashboard (index.php) uses Chart.js for:
   - Daily Sales
