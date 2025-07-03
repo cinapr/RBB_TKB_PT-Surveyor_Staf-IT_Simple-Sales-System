@@ -67,7 +67,7 @@ To simulate a real-world application for managing sales operations, including:
 <img width="670" alt="ERD" src="https://github.com/user-attachments/assets/63d91074-1ae8-40ff-ab66-826a37686c1d" />
 
 
-**Entities:**
+### **Entities:**
 
 - `Sales`: `sales_id`, `nama_sales`, `email`, `telepon`
 - `Produk`: `produk_id`, `nama_produk`, `kategori`, `harga`
@@ -76,26 +76,54 @@ To simulate a real-world application for managing sales operations, including:
 - `Aktivitas_Sales`: `aktivitas_id`, `sales_id`, `klien_id`, `tanggal_aktivitas`, `deskripsi`
 - `Penjualan`: `penjualan_id`, `produk_id`, `sales_id`, `klien_id`, `tanggal`, `jumlah`, `total_harga`, `notes`
 
-**Relationships:**
+### **Relationships:**
 
 - 1 Sales → Many Penjualan, Aktivitas_Sales
 - 1 Produk → Many Penjualan
 - 1 Klien → Many Aktivitas, Penjualan
 - 1 Wilayah → Many Klien
 
-## 🧾 SQL
+### 🧾 SQL Query
 
-### ⚙️ Function: `TotalPenjualanSales(sales_id)`
+#### ⚙️ Function: `TotalPenjualanSales(sales_id)`
 Returns total sales of the day for a given `sales_id`.
 
-### ⚙️ Procedure: `TambahPenjualan(...)`
+#### ⚙️ Procedure: `TambahPenjualan(...)`
 Adds new sales records and calculates totals if applicable.
 
-### ⚙️ Trigger: `HitungTotalHarga`
+#### ⚙️ Trigger: `HitungTotalHarga`
 Automatically calculates `total_harga` if `notes` is not NULL.
 
-## 🧮 Dashboard & Forms
 
+## Key Features
+This Sales Application is designed to streamline sales data management for PT XYZ, focusing on robust backend operations and clear data insights. Developed as a technical assessment, it showcases core competencies in database design, SQL programming, and basic web application development.
+
+### Comprehensive Sales Data Management: Manages essential sales entities including:
+- Sales Representatives (sales)
+- Products (produk)
+- Clients (klien) linked to geographical regions (wilayah)
+- Sales Activities (aktivitas_sales)
+- Daily Sales Transactions (penjualan)
+
+### Focus on Data Integrity & Accountability: Incorporates planning for secure data handling, including explicit considerations for audit logs and authorization mechanisms for data modifications, emphasizing accountability over destructive operations like DROP/TRUNCATE.
+
+### Scalable & Maintainable Foundation: The project's architecture provides a solid, well-commented foundation for future enhancements, including UI/UX improvements (e.g., integration with Bootstrap) and expansion of analytical dashboards.
+
+### Advanced SQL Programming: Demonstrates proficiency in Data Manipulation Language (DML) for data operations, alongside custom SQL constructs:
+
+### Robust Database Design (ERD & DDL): Implements a well-structured relational database schema, clearly defined with an Entity-Relationship Diagram (ERD) and Data Definition Language (DDL) scripts for tables, primary keys, and foreign key relationships.
+
+### Core Technology Stack: Built using PHP (Native) for backend logic and frontend rendering, MySQL/MariaDB for robust data storage, and Chart.js for data visualization.
+
+### Dynamic Multi-Product Sales Entry: Features a user-friendly form (```penjualan.php```) allowing sales representatives to input multiple products for a single transaction in a dynamic table format, with automatic price and total calculations.
+
+### Functions: Example ```TotalPenjualanSales``` for real-time sales performance tracking.
+
+### Procedures: ```TambahPenjualan``` for automated and conditional sales invoice processing.
+
+### Triggers: ```HitungTotalHarga``` to ensure data integrity and automate calculations based on specific business rules (e.g., handling discounts).
+
+### Basic Data Visualization Dashboard: Provides an initial dashboard (index.php) with charts (powered by Chart.js) to visualize key sales metrics, such as daily sales per salesperson and total sales per product, laying the groundwork for deeper analytical insights.
 - CRUD Forms for Products, Sales, Clients, Activities
 - Dynamic multi-product entry for sales
 - Real-time auto-calculation of total prices
