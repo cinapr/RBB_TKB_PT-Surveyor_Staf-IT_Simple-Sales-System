@@ -27,6 +27,9 @@ To simulate a real-world application for managing sales operations, including:
   - Daily Sales
   - Top 5 Best-selling Products
   - Other future dashboards
+- Focus on Data Integrity & Accountability
+- Incorporates planning for secure data handling : audit logs and authorization mechanisms for data modifications
+- Solid & well-documented architecture for scalable & maintainability
 
 
 ## 📌 Future Enhancements
