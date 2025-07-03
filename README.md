@@ -22,13 +22,16 @@ To simulate a real-world application for managing sales operations, including:
 - Multi-product Sales Entry Form
 - Real-time Invoice Calculation
 - Trigger & Stored Procedures for Data Consistency
-- Dashboard with Chart.js Visualization
 - Provinces data covering all regions in Indonesia
-- No authentication system (planned as future enhancement)
+- Dashboard (index.php) uses Chart.js for:
+  - Daily Sales
+  - Top 5 Best-selling Products
+  - Other future dashboards
+
 
 ## 📌 Future Enhancements
 
-- Add Login & Role-based Access Control
+- authentication system : Add Login & Role-based Access Control
 - Input Validation for Public Use
 - Use Bootstrap for better UI/UX
 - Add deletion audit logs
@@ -124,13 +127,6 @@ This Sales Application is designed to streamline sales data management for PT XY
 10. Triggers: ```HitungTotalHarga``` to ensure data integrity and automate calculations based on specific business rules (e.g., handling discounts).
 
 11. Basic Data Visualization Dashboard: Provides an initial dashboard (index.php) with charts (powered by Chart.js) to visualize key sales metrics, such as daily sales per salesperson and total sales per product, laying the groundwork for deeper analytical insights.
-- CRUD Forms for Products, Sales, Clients, Activities
-- Dynamic multi-product entry for sales
-- Real-time auto-calculation of total prices
-- Dashboard (index.php) uses Chart.js for:
-  - Daily Sales
-  - Top 5 Best-selling Products
-  - Other future dashboards
 
 
 
