@@ -98,32 +98,32 @@ Automatically calculates `total_harga` if `notes` is not NULL.
 ## Key Features
 This Sales Application is designed to streamline sales data management for PT XYZ, focusing on robust backend operations and clear data insights. Developed as a technical assessment, it showcases core competencies in database design, SQL programming, and basic web application development.
 
-### Comprehensive Sales Data Management: Manages essential sales entities including:
+1. Comprehensive Sales Data Management: Manages essential sales entities including:
 - Sales Representatives (sales)
 - Products (produk)
 - Clients (klien) linked to geographical regions (wilayah)
 - Sales Activities (aktivitas_sales)
 - Daily Sales Transactions (penjualan)
 
-### Focus on Data Integrity & Accountability: Incorporates planning for secure data handling, including explicit considerations for audit logs and authorization mechanisms for data modifications, emphasizing accountability over destructive operations like DROP/TRUNCATE.
+2. Focus on Data Integrity & Accountability: Incorporates planning for secure data handling, including explicit considerations for audit logs and authorization mechanisms for data modifications, emphasizing accountability over destructive operations like DROP/TRUNCATE.
 
-### Scalable & Maintainable Foundation: The project's architecture provides a solid, well-commented foundation for future enhancements, including UI/UX improvements (e.g., integration with Bootstrap) and expansion of analytical dashboards.
+3. Scalable & Maintainable Foundation: The project's architecture provides a solid, well-commented foundation for future enhancements, including UI/UX improvements (e.g., integration with Bootstrap) and expansion of analytical dashboards.
 
-### Advanced SQL Programming: Demonstrates proficiency in Data Manipulation Language (DML) for data operations, alongside custom SQL constructs:
+4. Advanced SQL Programming: Demonstrates proficiency in Data Manipulation Language (DML) for data operations, alongside custom SQL constructs:
 
-### Robust Database Design (ERD & DDL): Implements a well-structured relational database schema, clearly defined with an Entity-Relationship Diagram (ERD) and Data Definition Language (DDL) scripts for tables, primary keys, and foreign key relationships.
+5. Robust Database Design (ERD & DDL): Implements a well-structured relational database schema, clearly defined with an Entity-Relationship Diagram (ERD) and Data Definition Language (DDL) scripts for tables, primary keys, and foreign key relationships.
 
-### Core Technology Stack: Built using PHP (Native) for backend logic and frontend rendering, MySQL/MariaDB for robust data storage, and Chart.js for data visualization.
+6. Core Technology Stack: Built using PHP (Native) for backend logic and frontend rendering, MySQL/MariaDB for robust data storage, and Chart.js for data visualization.
 
-### Dynamic Multi-Product Sales Entry: Features a user-friendly form (```penjualan.php```) allowing sales representatives to input multiple products for a single transaction in a dynamic table format, with automatic price and total calculations.
+7. Dynamic Multi-Product Sales Entry: Features a user-friendly form (```penjualan.php```) allowing sales representatives to input multiple products for a single transaction in a dynamic table format, with automatic price and total calculations.
 
-### Functions: Example ```TotalPenjualanSales``` for real-time sales performance tracking.
+8. Functions: Example ```TotalPenjualanSales``` for real-time sales performance tracking.
 
-### Procedures: ```TambahPenjualan``` for automated and conditional sales invoice processing.
+9. Procedures: ```TambahPenjualan``` for automated and conditional sales invoice processing.
 
-### Triggers: ```HitungTotalHarga``` to ensure data integrity and automate calculations based on specific business rules (e.g., handling discounts).
+10. Triggers: ```HitungTotalHarga``` to ensure data integrity and automate calculations based on specific business rules (e.g., handling discounts).
 
-### Basic Data Visualization Dashboard: Provides an initial dashboard (index.php) with charts (powered by Chart.js) to visualize key sales metrics, such as daily sales per salesperson and total sales per product, laying the groundwork for deeper analytical insights.
+11. Basic Data Visualization Dashboard: Provides an initial dashboard (index.php) with charts (powered by Chart.js) to visualize key sales metrics, such as daily sales per salesperson and total sales per product, laying the groundwork for deeper analytical insights.
 - CRUD Forms for Products, Sales, Clients, Activities
 - Dynamic multi-product entry for sales
 - Real-time auto-calculation of total prices
