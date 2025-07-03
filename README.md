@@ -16,7 +16,7 @@ To simulate a real-world application for managing sales operations, including:
 - Daily sales transactions
 - Dashboard with data visualization
 
-## 📌 Features
+## 📌 Key Features
 
 - CRUD operations for Sales, Clients, Products, and Sales Activities
 - Multi-product Sales Entry Form
@@ -25,6 +25,15 @@ To simulate a real-world application for managing sales operations, including:
 - Dashboard with Chart.js Visualization
 - Provinces data covering all regions in Indonesia
 - No authentication system (planned as future enhancement)
+
+## 📌 Future Enhancements
+
+- Add Login & Role-based Access Control
+- Input Validation for Public Use
+- Use Bootstrap for better UI/UX
+- Add deletion audit logs
+- Navigation bar for easier access
+- Expand dashboard visualizations
 
 ## 🛠️ Tech Stack
 
@@ -52,15 +61,6 @@ To simulate a real-world application for managing sales operations, including:
 2. Import `rbb2025_pt_surveyor_system_sales.sql` into MySQL
 3. Copy project files to your PHP server (e.g., `htdocs/` on XAMPP)
 4. Open in browser: `http://localhost/rbbsurveyor/index.php`
-
-## 📌 Future Enhancements
-
-- Add Login & Role-based Access Control
-- Input Validation for Public Use
-- Use Bootstrap for better UI/UX
-- Add deletion audit logs
-- Navigation bar for easier access
-- Expand dashboard visualizations
 
 ## 🗃️ Database Design
 
@@ -95,7 +95,7 @@ Adds new sales records and calculates totals if applicable.
 Automatically calculates `total_harga` if `notes` is not NULL.
 
 
-## Key Features
+## Functional Overview
 This Sales Application is designed to streamline sales data management for PT XYZ, focusing on robust backend operations and clear data insights. Developed as a technical assessment, it showcases core competencies in database design, SQL programming, and basic web application development.
 
 1. Comprehensive Sales Data Management: Manages essential sales entities including:
